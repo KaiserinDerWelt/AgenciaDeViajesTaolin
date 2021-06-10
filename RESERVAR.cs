@@ -6,7 +6,7 @@ namespace AgenciaDeViajesTaolin
 {
     class RESERVAR
     {
-        //Constructor vacío. 
+        //Constructor
         public RESERVAR()
         {
 
@@ -16,7 +16,7 @@ namespace AgenciaDeViajesTaolin
         protected int peoplesQuantity;
 
 
-        //Método Reservas con parámetros
+        //Método Reservas con DOS parámetros
         public RESERVAR(int touristicSpot, int peoplesQuantity)
         {
             this.touristicSpot = touristicSpot;
@@ -26,21 +26,21 @@ namespace AgenciaDeViajesTaolin
         {
             if (touristicSpot == 1)
             {
-                System.Console.WriteLine("Destino turístico: " + touristicSpot + ".- Tatooine.");
+                Console.WriteLine("Destino turístico: " + touristicSpot + ".- Tatooine.");
             }
             else if (touristicSpot == 2)
             {
-                System.Console.WriteLine("Destino turístico: " + touristicSpot + ".- Alderaan.");
+                Console.WriteLine("Destino turístico: " + touristicSpot + ".- Alderaan.");
             }
             else if (touristicSpot == 3)
             {
-                System.Console.WriteLine("Destino turístico: " + touristicSpot + ".- Yavin IV.");
+                Console.WriteLine("Destino turístico: " + touristicSpot + ".- Yavin IV.");
             }
             else if (touristicSpot == 4)
             {
-                System.Console.WriteLine("Destino turístico: " + touristicSpot + ".- Hoth.");
+                Console.WriteLine("Destino turístico: " + touristicSpot + ".- Hoth.");
             }
-            System.Console.WriteLine("Número de personas: " + peoplesQuantity);
+            Console.WriteLine("Número de personas: " + peoplesQuantity);
         }
 
 

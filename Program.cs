@@ -57,7 +57,7 @@ namespace AgenciaDeViajesTaolin
                                 int person = int.Parse(travelerQuantity);
                                 double pricePerTraveler = 18700.00;
                                 DESTINONORMAL reservanormal = new DESTINONORMAL(2, person, pricePerTraveler, 2, package, 0.10);
-                                reservanormal.ObtenerPrecioNormal();
+                                reservanormal.GetPrice();
                             }
                             else if (destination == 3) // Seleccion Yavin
                             {
@@ -71,7 +71,7 @@ namespace AgenciaDeViajesTaolin
                                 int confirmedTravelerQuantity = int.Parse(travelerQuantity);
                                 double pricePerTraveler = 7900.00;
                                 DESTINONORMAL reservanormal = new DESTINONORMAL(3, confirmedTravelerQuantity, pricePerTraveler, 3, package, 0.10);
-                                reservanormal.ObtenerPrecioNormal();
+                                reservanormal.GetPrice();
                             }
                             else if (destination == 4) // Seleccion Hoth
                             {
