@@ -26,7 +26,7 @@ namespace AgenciaDeViajesTaolin
 
         }
 
-        public void ObtenerPrecioNormalSimple()
+        public void GetNormalPrice()
         {
             //Método heredado de la clase padre
             Informacion();

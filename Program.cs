@@ -99,22 +99,22 @@ namespace AgenciaDeViajesTaolin
                             if (destinationSelectionForPriceParced == 1)
                             {
                                DESTINOEXTREMO reservadetinosextremosimple = new DESTINOEXTREMO(1,travelerQuantityForPrice);
-                                reservadetinosextremosimple.ObtenerPrecioExtremoSimple();
+                                reservadetinosextremosimple.GetExtrasFreePrice();
                             }
                             if (destinationSelectionForPriceParced == 2)
                             {
                                 DESTINONORMAL reservadestinonormalsimple = new DESTINONORMAL(2,travelerQuantityForPrice);
-                                reservadestinonormalsimple.ObtenerPrecioNormalSimple();
+                                reservadestinonormalsimple.GetNormalPrice();
                             }
                             if (destinationSelectionForPriceParced == 3)
                             {
                                 DESTINONORMAL reservadestinonormalsimple = new DESTINONORMAL(3,travelerQuantityForPrice);
-                                reservadestinonormalsimple.ObtenerPrecioNormalSimple();
+                                reservadestinonormalsimple.GetNormalPrice();
                             }
                             if (destinationSelectionForPriceParced == 4)
                             {
                                DESTINOEXTREMO reservadetinosextremosimple = new DESTINOEXTREMO(4,travelerQuantityForPrice);
-                                reservadetinosextremosimple.ObtenerPrecioExtremoSimple();
+                                reservadetinosextremosimple.GetExtrasFreePrice();
                             }
                             break;
                         case 3 when (option == 3): // Limpiar datos

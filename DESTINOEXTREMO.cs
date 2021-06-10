@@ -24,7 +24,7 @@ namespace AgenciaDeViajesTaolin
     {
 
     }
-    public void ObtenerPrecioExtremoSimple()
+    public void GetExtrasFreePrice()
     {
         //Método heredado de la clase padre
         Informacion();
